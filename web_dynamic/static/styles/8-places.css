@@ -6,6 +6,39 @@
     margin-top: 1%;
     margin-bottom: 8%;
 }
+article .reviews {
+  margin-top: 40px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.reviews_title {
+  font-size: 16px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.reviews_title h2 {
+    display: inline-block;
+}
+
+.reviews_title span {
+    margin-left: 10px;
+}
+
+.reviews_list li {
+  list-style: none;
+  margin-left: -40px;
+}
+.review h3 {
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+.review p {
+font-size: 12px;
+margin-top: 2px;
+}
+  
 @media only screen and (max-width: 920px)
 {
     .places {
